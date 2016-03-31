@@ -1,0 +1,17 @@
+--- 
+security: 
+  oauth2: 
+    client: 
+      accessTokenUri: "https://graph.facebook.com/oauth/access_token"
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+      clientId: 639378212882713
+      clientSecret: 3110168c30527e0a9326ba58a29ce598
+      tokenName: oauth_token
+      userAuthorizationUri: "https://www.facebook.com/dialog/oauth"
+    resource: 
+      userInfoUri: "https://graph.facebook.com/me"
+spring: 
+  resources: 
+    chain: 
+      enabled: true	
